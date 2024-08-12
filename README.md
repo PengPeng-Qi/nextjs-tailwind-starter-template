@@ -6,5 +6,5 @@ A Next.js with TailWind Starter Template
 
 - [x] GitHub Action Deploy
 - [x] Prettier
-- [ ] CommitLint
+- [x] CommitLint
 - [ ] Dark Theme
