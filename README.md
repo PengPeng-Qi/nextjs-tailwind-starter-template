@@ -5,6 +5,7 @@ A Next.js with TailWind Starter Template
 ## Contain
 
 - [x] GitHub Action Deploy
-- [x] Prettier
 - [x] CommitLint
+- [x] LintStaged
+- [x] Prettier
 - [ ] Dark Theme
