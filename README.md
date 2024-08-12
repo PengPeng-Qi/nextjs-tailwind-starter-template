@@ -9,3 +9,4 @@ A Next.js with TailWind Starter Template
 - [x] LintStaged
 - [x] Prettier
 - [x] Dark Theme
+- [x] Code Inspector
