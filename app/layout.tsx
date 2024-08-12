@@ -1,4 +1,6 @@
+import DarkMode from "@/components/DarkMode";
 import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -15,8 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} bg-white text-black dark:bg-black dark:text-white`}>
+        <ThemeProvider>
+          {children}
+
+          <DarkMode />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

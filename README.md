@@ -8,4 +8,4 @@ A Next.js with TailWind Starter Template
 - [x] CommitLint
 - [x] LintStaged
 - [x] Prettier
-- [ ] Dark Theme
+- [x] Dark Theme
